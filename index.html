@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsive Webpage</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+
+        header {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 10px;
+            box-sizing: border-box;
+        }
+
+        nav {
+            background-color: #555;
+            display: flex;
+            justify-content: center;
+            padding: 10px;
+        }
+
+        nav a {
+            color: #fff;
+            text-decoration: none;
+            margin: 0 20px;
+        }
+
+        a{
+            color:#1393c6;;
+            text-decoration: none;
+        }
+
+        a:hover{
+            color:#000
+        }
+
+        main {
+            padding: 20px;
+            box-sizing: border-box;
+        }
+
+        footer {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 10px;
+            position: absolute;
+            bottom: 0;
+            width: 100%;
+            box-sizing: border-box;
+        }
+
+        /* Responsive Styles */
+        @media (max-width: 768px) {
+            nav {
+                flex-direction: column;
+                align-items: center;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>David Burgess</h1>
+    </header>
+    <main>
+        <h2>Front End Skills</h2>
+        <p>JavaScript, ES6, React, React Router, CSS, SCSS, HTML5, SEO</p>
+        <h2>Demo Projects</h2>
+        <p>Thank you for checking out my portfolio.  Please see some example front end projects I have worked on</p>
+
+        <ul>
+            <li>
+                <a target="_blank" href='https://davidburgess1984.github.io/kanban-front-end'>Kanban Task Management</a>
+                <p>Implemented a task management application as a Kanban Board.  The tiles have draggable features.  Demonstrates my ability to work with React, custom css files and import external libraries (<a target="_blank" href="https://github.com/DavidBurgess1984/kanban-front-end">github</a>).</p>
+            </li>
+            <li>
+                <a target="_blank"href='https://davidburgess1984.github.io/audiophile'>Online Shopping Cart</a>
+                <p>Implemented an front end for an online shopping cart.   Demonstrates my ability to work with Typescript,custom css files and effective state management (<a target="_blank" href="https://github.com/DavidBurgess1984/audiophile">github</a>).</p>
+            </li>
+            <li>
+                <a target="_blank" href='https://davidburgess1984.github.io/chap-app-css'>Chat Application Design</a>
+                <p>Demonstrates my ability to work with scss to generate the outline of a chat application (<a target="_blank" href="https://github.com/DavidBurgess1984/chap-app-css">github</a>).</p>
+                
+            </li>
+        </ul>
+        <h2>Full Stack Skills</h2>
+        <p>PHP, CakePHP, Lumen, MySQL, SQL, Golang, AWS Cloud Technologies, Docker, Basic Kubernetes</p>
+
+    </main>
+    <footer>
+        
+    </footer>
+</body>
+</html>
